@@ -1,0 +1,58 @@
+.list {
+  @apply flex items-center justify-center gap-8 w-full my-28;
+  .item {
+    @apply flex gap-5 items-center w-[400px];
+    &:before {
+      content: '•';
+      @apply font-bold text-4xl text-gray-300;
+    }
+
+    .count {
+      @apply text-orange-600 text-7xl font-bold;
+    }
+
+    .text {
+      @apply text-lg text-gray-900;
+    }
+  }
+}
+
+.instructions {
+  h2 {
+
+  }
+
+  .description {
+
+  }
+
+  .wrapper {
+    img {
+
+    }
+
+    .card {
+
+    }
+
+    .left {
+
+    }
+
+    .right {
+
+    }
+
+    ul {
+      li {
+
+      }
+    }
+
+    ol {
+      li {
+
+      }
+    }
+  }
+}

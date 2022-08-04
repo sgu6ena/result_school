@@ -1,0 +1,99 @@
+.main {
+  @apply pt-12 pl-24;
+  .container {
+    @apply text-white relative bg-blue-600 flex items-center rounded-l-3xl;
+    .circles {
+      @apply absolute bottom-0 flex  left-0  opacity-50;
+      .circle {
+        @apply h-80 w-80 bg-blue-700 rounded-full  z-0;
+      }
+    }
+
+    .content {
+      @apply z-20 relative w-1/2 z-10 pl-20 py-16 ;
+      h1 {
+        @apply text-6xl font-semibold leading-[1.3em] ;
+      }
+
+      .subtitle {
+        @apply text-3xl mt-10 leading-relaxed font-semibold ;
+      }
+
+      .text {
+        @apply text-xl mt-7;
+      }
+
+      button {
+        @apply mt-10 px-10 py-7 text-lg rounded-full bg-orange-500 text-white;
+      }
+
+    }
+
+    .wrapper {
+      &:before {
+        content: '';
+        background: url("../../assets/svg/background_dots.svg") no-repeat;
+        @apply absolute top-0 left-0 w-48 h-48 bg-cover bg-center opacity-50 z-0;
+      }
+
+      @apply self-end items-start relative z-10 w-1/2;
+      .image {
+        @apply relative object-cover  block z-20 h-full;
+      }
+    }
+  }
+}
+
+.instructions {
+  @apply container p-5 m-auto;
+  h2 {
+
+    @apply flex items-center justify-center text-6xl font-semibold gap-6;
+    .question {
+      @apply h-6 inline-flex justify-center items-center text-xs   w-6 grow-0 shrink-0 bg-blue-600 text-white rounded-full;
+    }
+  }
+
+  .description {
+    @apply text-2xl mt-10 mb-16 w-[60%] m-auto text-center;
+  }
+
+  .wrapper {
+    @apply relative;
+    img {
+      @apply w-3/5 m-auto;
+    }
+
+    .card {
+      @apply py-5 bg-white px-6 flex flex-col gap-4 rounded-xl border border-blue-400;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06), 0px 24px 160px rgba(0, 0, 0, 0.02);
+
+      h4 {
+        @apply text-blue-500 uppercase;
+      }
+    }
+
+    .left {
+      @apply left-0 top-40 absolute w-[400px];
+    }
+
+    .right {
+      @apply right-0 top-60 absolute w-[450px];
+    }
+
+    ul {
+      @apply ml-0;
+      > li {
+        @apply ml-2 list-['-'] pl-2;
+
+      }
+    }
+
+    ol {
+      > li {
+        @apply ml-4 list-decimal;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Amatic+SC:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Press+Start+2P&family=Flow+Circular&display=swap');
+
+@font-face {
+  font-family: '../fonts/golos/Golos Text';
+  src: url('../fonts/golos/GolosText-Medium.eot');
+  src: local('../fonts/golos/Golos Text Medium'), local('../fonts/golos/GolosText-Medium'),
+  url('../fonts/golos/GolosText-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/golos/GolosText-Medium.woff2') format('woff2'),
+  url('../fonts/golos/GolosText-Medium.woff') format('woff'),
+  url('../fonts/golos/GolosText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '../fonts/golos/Golos Text';
+  src: url('../fonts/golos/GolosText-Black.eot');
+  src: local('../fonts/golos/Golos Text Black'), local('../fonts/golos/GolosText-Black'),
+  url('../fonts/golos/GolosText-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/golos/GolosText-Black.woff2') format('woff2'),
+  url('../fonts/golos/GolosText-Black.woff') format('woff'),
+  url('../fonts/golos/GolosText-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '../fonts/golos/Golos Text';
+  src: url('../fonts/golos/GolosText-DemiBold.eot');
+  src: local('../fonts/golos/Golos Text DemiBold'), local('../fonts/golos/GolosText-DemiBold'),
+  url('../fonts/golos/GolosText-DemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/golos/GolosText-DemiBold.woff2') format('woff2'),
+  url('../fonts/golos/GolosText-DemiBold.woff') format('woff'),
+  url('../fonts/golos/GolosText-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '../fonts/golos/Golos Text';
+  src: url('../fonts/golos/GolosText-Bold.eot');
+  src: local('../fonts/golos/Golos Text Bold'), local('../fonts/golos/GolosText-Bold'),
+  url('../fonts/golos/GolosText-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/golos/GolosText-Bold.woff2') format('woff2'),
+  url('../fonts/golos/GolosText-Bold.woff') format('woff'),
+  url('../fonts/golos/GolosText-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '../fonts/golos/Golos Text';
+  src: url('../fonts/golos/GolosText-Regular.eot');
+  src: local('../fonts/golos/Golos Text Regular'), local('../fonts/golos/GolosText-Regular'),
+  url('../fonts/golos/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/golos/GolosText-Regular.woff2') format('woff2'),
+  url('../fonts/golos/GolosText-Regular.woff') format('woff'),
+  url('../fonts/golos/GolosText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Golos Text', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+#root{
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
