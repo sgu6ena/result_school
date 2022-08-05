@@ -43,7 +43,7 @@
       }
 
       .promise{
-        @apply absolute text-gray-900 left-14 z-40 text-gray-500 shadow-2xl border text-sm rounded-3xl  px-5 py-8 w-96 bg-white ;
+        @apply relative w-full  lg:absolute text-gray-900 lg:left-14 z-40 text-gray-500 shadow-2xl border text-sm rounded-3xl  px-5 py-8 lg:w-96 bg-white ;
         bottom:-80px;
         .icon{
           @apply absolute p-3 rounded-2xl bg-blue-500 z-50 -top-14 left-10;
