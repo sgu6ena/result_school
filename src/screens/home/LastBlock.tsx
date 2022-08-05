@@ -1,12 +1,13 @@
 import {FC} from 'react';
 import Tabs from "../../components/tabs/Tabs";
+import styles from "./home.module.scss";
 
 const LastBlock: FC = () => {
   return (
-    <div>
+    <div className={styles.last}>
       <Tabs tabs={[
-        {title: '1', children: <span>111111</span>},
-        {title: '2', children: <span>222222</span>}
+        {title: 'первая вкладка', children: <span>111111</span>},
+        {title: 'втрая вкладка', children: <span>222222</span>}
       ]}></Tabs>
     </div>
   );

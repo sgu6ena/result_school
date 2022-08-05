@@ -1,0 +1,16 @@
+.tabs {
+  @apply p-14;
+  .header {
+    @apply justify-center gap-5 flex;
+    .title {
+      @apply px-8 py-6 opacity-60;
+      &.active{
+        @apply opacity-100;
+      }
+    }
+  }
+
+  .content {
+    @apply p-8;
+  }
+}
