@@ -1,9 +1,9 @@
 .tabs {
   @apply p-14;
   .header {
-    @apply justify-center gap-5 flex;
+    @apply justify-center  flex;
     .title {
-      @apply px-8 py-6 opacity-60;
+      @apply px-6 py-4 opacity-60;
       &.active{
         @apply opacity-100;
       }
@@ -11,6 +11,6 @@
   }
 
   .content {
-    @apply p-8;
+    @apply px-8 pt-16;
   }
 }

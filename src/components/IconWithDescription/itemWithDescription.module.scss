@@ -1,0 +1,13 @@
+.wrapper {
+  @apply flex flex-col gap-5 w-96  items-center;
+  .icon {
+    @apply text-inherit;
+    svg {
+      @apply w-16 h-16;
+    }
+  }
+
+  .text {
+    @apply text-lg text-center;
+  }
+}

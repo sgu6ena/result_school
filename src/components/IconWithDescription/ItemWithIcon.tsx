@@ -1,12 +1,12 @@
 import {FC, ReactNode} from 'react';
-
+import styles from './itemWithDescription.module.scss'
 const ItemWithIcon: FC<{text:string, icon:ReactNode}> = ({icon,text}) => {
   return (
-    <div >
-      <div>
+    <div className={styles.wrapper}>
+      <div className={styles.icon}>
         {icon}
       </div>
-      <div>
+      <div className={styles.text}>
         {text}
       </div>
     </div>

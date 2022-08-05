@@ -97,6 +97,13 @@
   }
 }
 
-.last{
-@apply m-5  bg-gray-900 rounded-xl text-white;
+.last {
+  @apply m-5 bg-gray-900 rounded-xl text-white;
+  h2 {
+    @apply text-3xl text-center font-bold pt-20;
+  }
+
+  .tabcontent {
+    @apply flex justify-center gap-6;
+  }
 }

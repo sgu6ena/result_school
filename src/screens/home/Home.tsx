@@ -20,12 +20,13 @@ const advantages: IAdvantage[] = [
 ]
 
 const Home: FC = () => {
-  return (<>
+  return (
+    <div  className={'pb-1'}>
       <MainBlock/>
       <Advantages advantages={advantages}/>
       <Instruction/>
       <LastBlock/>
-    </>
+    </div>
 
   );
 };
