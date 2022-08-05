@@ -6,7 +6,7 @@ const Tabs: FC<{ tabs: ITab[] }> = ({tabs}) => {
   const count = tabs.length-1
 
   const [activeTab, setActiveTab] = useState(0)
-
+  
   return (
     <div className={styles.tabs} onWheel={(e) => {
       setActiveTab(e.deltaY > 0 ? (activeTab < count ? activeTab + 1 : activeTab) : (activeTab > 0 ? activeTab - 1 : 0))

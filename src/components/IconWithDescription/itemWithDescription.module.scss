@@ -1,9 +1,9 @@
 .wrapper {
-  @apply flex flex-col gap-5 w-96  items-center;
+  @apply flex flex-col gap-5 md:w-96 w-full items-center;
   .icon {
     @apply text-inherit;
     svg {
-      @apply w-16 h-16;
+      @apply w-10 h-10 md:w-16 md:h-16;
     }
   }
 

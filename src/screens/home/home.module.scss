@@ -1,22 +1,22 @@
 .main {
-  @apply pt-12 pl-24;
+  @apply pt-12 lg:pl-24 md:pl-12 pl-4;
   .container {
-    @apply text-white relative bg-blue-600 flex items-center rounded-l-3xl;
+    @apply text-white relative bg-blue-600 flex-col md:flex-row flex  items-center rounded-l-3xl;
     .circles {
-      @apply absolute bottom-0 flex  left-0  opacity-50;
+      @apply absolute bottom-0 lg:flex  hidden left-0  opacity-50;
       .circle {
         @apply h-80 w-80 bg-blue-700 rounded-full  z-0;
       }
     }
 
     .content {
-      @apply z-20 relative w-1/2 z-10 pl-20 py-16 ;
+      @apply z-20 relative w-full z-10 py-16 lg:pl-20 md:pl-12 pl-4 ;
       h1 {
-        @apply text-6xl font-semibold leading-[1.3em] ;
+        @apply lg:text-6xl md:text-4xl text-3xl font-semibold leading-[1.3em] ;
       }
 
       .subtitle {
-        @apply text-3xl mt-10 leading-relaxed font-semibold ;
+        @apply lg:text-3xl md:text-2xl text-xl mt-10 leading-relaxed font-semibold ;
       }
 
       .text {
@@ -24,7 +24,7 @@
       }
 
       button {
-        @apply mt-10 px-10 py-7 text-lg rounded-full bg-orange-500 text-white;
+        @apply mt-10 px-10 py-7 text-lg rounded-full lg:w-fit w-full bg-orange-500 text-white;
       }
 
     }
@@ -36,21 +36,20 @@
         @apply absolute top-0 left-0 w-48 h-48 bg-cover bg-center opacity-50 z-0;
       }
 
-      @apply self-end items-start relative z-10 w-1/2;
+      @apply self-end items-start relative z-10 w-full;
       .image {
-        @apply relative object-cover  block z-20 h-full;
+        @apply relative object-cover  block z-20  h-full;
       }
     }
   }
 }
 
 .instructions {
-  @apply container p-5 m-auto;
+  @apply container px-5 m-auto;
   h2 {
-
-    @apply flex items-center justify-center text-6xl font-semibold gap-6;
+    @apply flex text-center flex-col lg:flex-row items-center justify-center lg:text-6xl md:text-5xl text-3xl font-semibold gap-6;
     .question {
-      @apply h-6 inline-flex justify-center items-center text-xs   w-6 grow-0 shrink-0 bg-blue-600 text-white rounded-full;
+      @apply lg:h-6 inline-flex justify-center items-center  lg:text-lg w-12 h-12  lg:w-6 grow-0 shrink-0 bg-blue-600 text-white rounded-full;
     }
   }
 
@@ -61,7 +60,7 @@
   .wrapper {
     @apply relative;
     img {
-      @apply w-3/5 m-auto;
+      @apply lg:w-3/5 w-full my-5 m-auto;
     }
 
     .card {
@@ -74,11 +73,11 @@
     }
 
     .left {
-      @apply left-0 top-40 absolute w-[400px];
+      @apply left-0 top-40 lg:absolute lg:w-[400px] w-full;
     }
 
     .right {
-      @apply right-0 top-60 absolute w-[450px];
+      @apply right-0 top-60 lg:absolute lg:w-[450px] w-full;
     }
 
     ul {
@@ -104,6 +103,6 @@
   }
 
   .tabcontent {
-    @apply flex justify-center gap-6;
+    @apply flex flex-col md:flex-row justify-center gap-6;
   }
 }

@@ -1,10 +1,10 @@
 .list {
-  @apply flex items-center justify-center gap-8 w-full my-28;
+  @apply flex flex-col md:flex-row flex-wrap items-center justify-center gap-8 w-full lg:my-28 md:my-20 my-10;
   .item {
-    @apply flex gap-5 items-center w-[400px];
+    @apply flex gap-5 items-center md:w-[400px] w-full;
     &:before {
       content: '•';
-      @apply font-bold text-4xl text-gray-300;
+      @apply font-bold text-4xl ml-4 text-gray-300;
     }
 
     .count {

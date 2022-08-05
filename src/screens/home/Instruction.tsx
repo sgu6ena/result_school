@@ -10,7 +10,7 @@ const Instruction: FC = () => {
         повторяете за действующим
         разработчиком, после чего <strong> закрепляешь знания на заданиях и проектах.</strong></p>
       <div className={styles.wrapper}>
-        <img src="/assets/images/instructions.png" alt="Как именно ты станешь разработчиком"/>
+       
 
         <div className={cn(styles.card, styles.left)}>
           <h4>2 Командных проекта</h4>
@@ -25,6 +25,9 @@ const Instruction: FC = () => {
 
           </div>
         </div>
+  
+        <img src="/assets/images/instructions.png" alt="Как именно ты станешь разработчиком"/>
+        
         <div className={cn(styles.card, styles.right)}>
           <h4>Индивидуальные проекты</h4>
           <div>
