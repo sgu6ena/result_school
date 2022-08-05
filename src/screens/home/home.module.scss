@@ -12,7 +12,8 @@
     .content {
       @apply z-20 relative w-full z-10 py-16 lg:pl-20 md:pl-12 pl-4 ;
       h1 {
-        @apply lg:text-6xl md:text-4xl text-3xl font-semibold leading-[1.3em] ;
+        @apply lg:text-6xl md:text-4xl text-3xl font-semibold ;
+        line-height: 130%;
       }
 
       .subtitle {

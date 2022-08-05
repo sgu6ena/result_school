@@ -26,7 +26,7 @@ const Instruction: FC = () => {
           </div>
         </div>
   
-        <img src="/assets/images/instructions.png" alt="Как именно ты станешь разработчиком"/>
+        <img src="assets/images/instructions.png" alt="Как именно ты станешь разработчиком"/>
         
         <div className={cn(styles.card, styles.right)}>
           <h4>Индивидуальные проекты</h4>

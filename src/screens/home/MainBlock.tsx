@@ -25,7 +25,7 @@ const MainBlock: FC = () => {
           <button>Задать вопрос об обучении</button>
         </div>
         <div className={styles.wrapper}>
-          <img src="/assets/images/img.png" className={styles.image} alt="Профессия Frontend — разработчик"/>
+          <img src="assets/images/img.png" className={styles.image} alt="Профессия Frontend — разработчик"/>
           
           <div className={styles.promise}>
             <div className={styles.icon}>
