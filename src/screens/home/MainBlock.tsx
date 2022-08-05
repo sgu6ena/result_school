@@ -1,5 +1,6 @@
 import {FC} from 'react';
 import styles from "./home.module.scss";
+import {ReactComponent as Cmd} from '../../assets/svg/cmd.svg'
 
 const MainBlock: FC = () => {
   return (
@@ -11,7 +12,7 @@ const MainBlock: FC = () => {
           <div className={styles.circle}></div>
         </div>
         <div className={styles.content}>
-
+          
           <h1>Профессия<br/>
             Frontend — разработчик</h1>
           <p className={styles.subtitle}>Стань с нуля продвинутым Junior разработчиком за 7 месяцев с знанием
@@ -25,6 +26,14 @@ const MainBlock: FC = () => {
         </div>
         <div className={styles.wrapper}>
           <img src="/assets/images/img.png" className={styles.image} alt="Профессия Frontend — разработчик"/>
+          
+          <div className={styles.promise}>
+            <div className={styles.icon}>
+              <Cmd/>
+            </div>
+           <span>Обучение</span>  для тех, <strong> кто готов учиться 10 часов в неделю, </strong> <span> чтобы получить результат. </span>  Мы даем <strong> необходимые навыки </strong>
+            на продвинутом уровне, <strong> убирая все лишнее </strong>
+          </div>
         </div>
       </div>
     </div>
