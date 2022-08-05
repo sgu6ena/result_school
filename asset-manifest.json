@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/result_school/static/css/main.7e05947d.css",
+    "main.js": "/result_school/static/js/main.332e1636.js",
+    "static/media/GolosText-Black.eot": "/result_school/static/media/GolosText-Black.84f9e92a75bfbe150989.eot",
+    "static/media/GolosText-Black.ttf": "/result_school/static/media/GolosText-Black.5bf88b84e37a4e996266.ttf",
+    "static/media/GolosText-Regular.eot": "/result_school/static/media/GolosText-Regular.be9dbbbf8494075ffbc8.eot",
+    "static/media/GolosText-Medium.eot": "/result_school/static/media/GolosText-Medium.ce79d1eccad84f89d9b5.eot",
+    "static/media/GolosText-Regular.ttf": "/result_school/static/media/GolosText-Regular.4e79730984d81b89818d.ttf",
+    "static/media/GolosText-DemiBold.eot": "/result_school/static/media/GolosText-DemiBold.d1c2d68c7ec8ef5229dc.eot",
+    "static/media/GolosText-Medium.ttf": "/result_school/static/media/GolosText-Medium.c577016a422c25370fbc.ttf",
+    "static/media/GolosText-DemiBold.ttf": "/result_school/static/media/GolosText-DemiBold.8156a22582f4ba3f6684.ttf",
+    "static/media/GolosText-Bold.eot": "/result_school/static/media/GolosText-Bold.58a37ac47fd9365dcd60.eot",
+    "static/media/GolosText-Bold.ttf": "/result_school/static/media/GolosText-Bold.2c0671022c5a4ad7d2ed.ttf",
+    "static/media/GolosText-Black.woff": "/result_school/static/media/GolosText-Black.f3366c04a187e6d516e9.woff",
+    "static/media/GolosText-Bold.woff": "/result_school/static/media/GolosText-Bold.21ec8e83a4d724b9be45.woff",
+    "static/media/GolosText-DemiBold.woff": "/result_school/static/media/GolosText-DemiBold.338afafa037a1f039e0d.woff",
+    "static/media/GolosText-Medium.woff": "/result_school/static/media/GolosText-Medium.72be146da4ef186f6b37.woff",
+    "static/media/GolosText-Regular.woff": "/result_school/static/media/GolosText-Regular.a9b27a2fe86ff3e61988.woff",
+    "static/media/GolosText-Black.woff2": "/result_school/static/media/GolosText-Black.a485fe75fbb32d77d399.woff2",
+    "static/media/GolosText-Bold.woff2": "/result_school/static/media/GolosText-Bold.df2ce97df0a0060bbead.woff2",
+    "static/media/GolosText-DemiBold.woff2": "/result_school/static/media/GolosText-DemiBold.791408011ac4270c4177.woff2",
+    "static/media/GolosText-Medium.woff2": "/result_school/static/media/GolosText-Medium.84542968b689bf1c9925.woff2",
+    "static/media/GolosText-Regular.woff2": "/result_school/static/media/GolosText-Regular.af87bdb7d8392f53376a.woff2",
+    "static/media/background_dots.svg": "/result_school/static/media/background_dots.9192a8bda6e61a520c82.svg",
+    "static/media/react.svg": "/result_school/static/media/react.057e6f231b9463fb9c86543acdf86412.svg",
+    "static/media/web.svg": "/result_school/static/media/web.effcf194c6569de14a77ef4b80e98e93.svg",
+    "static/media/nano.svg": "/result_school/static/media/nano.ab2332036ec09f8aacd8182a95cb512e.svg",
+    "static/media/cmd.svg": "/result_school/static/media/cmd.18ff0bb3ad9d788bd3a8781f84ab7930.svg",
+    "index.html": "/result_school/index.html",
+    "static/media/node.svg": "/result_school/static/media/node.630747989ce7bed79df7f88d633466f3.svg",
+    "main.7e05947d.css.map": "/result_school/static/css/main.7e05947d.css.map",
+    "main.332e1636.js.map": "/result_school/static/js/main.332e1636.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e05947d.css",
+    "static/js/main.332e1636.js"
+  ]
+}
