@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/result_school/static/css/main.1b9dbf40.css",
-    "main.js": "/result_school/static/js/main.332e1636.js",
+    "main.css": "/result_school/static/css/main.9b5f1f62.css",
+    "main.js": "/result_school/static/js/main.5b70c52e.js",
     "static/media/GolosText-Black.eot": "/result_school/static/media/GolosText-Black.84f9e92a75bfbe150989.eot",
     "static/media/GolosText-Black.ttf": "/result_school/static/media/GolosText-Black.5bf88b84e37a4e996266.ttf",
     "static/media/GolosText-Regular.eot": "/result_school/static/media/GolosText-Regular.be9dbbbf8494075ffbc8.eot",
@@ -22,18 +22,19 @@
     "static/media/GolosText-DemiBold.woff2": "/result_school/static/media/GolosText-DemiBold.791408011ac4270c4177.woff2",
     "static/media/GolosText-Medium.woff2": "/result_school/static/media/GolosText-Medium.84542968b689bf1c9925.woff2",
     "static/media/GolosText-Regular.woff2": "/result_school/static/media/GolosText-Regular.af87bdb7d8392f53376a.woff2",
-    "static/media/background_dots.svg": "/result_school/static/media/background_dots.9192a8bda6e61a520c82.svg",
+    "static/media/background_dots.svg": "/result_school/static/media/background_dots.3c531ea6d05c245b3fb8.svg",
     "static/media/react.svg": "/result_school/static/media/react.057e6f231b9463fb9c86543acdf86412.svg",
     "static/media/web.svg": "/result_school/static/media/web.effcf194c6569de14a77ef4b80e98e93.svg",
     "static/media/nano.svg": "/result_school/static/media/nano.ab2332036ec09f8aacd8182a95cb512e.svg",
     "static/media/cmd.svg": "/result_school/static/media/cmd.18ff0bb3ad9d788bd3a8781f84ab7930.svg",
+    "static/media/cmd_alt.svg": "/result_school/static/media/cmd_alt.0aa2989eb3bf17531bf357f133f46409.svg",
     "index.html": "/result_school/index.html",
     "static/media/node.svg": "/result_school/static/media/node.630747989ce7bed79df7f88d633466f3.svg",
-    "main.1b9dbf40.css.map": "/result_school/static/css/main.1b9dbf40.css.map",
-    "main.332e1636.js.map": "/result_school/static/js/main.332e1636.js.map"
+    "main.9b5f1f62.css.map": "/result_school/static/css/main.9b5f1f62.css.map",
+    "main.5b70c52e.js.map": "/result_school/static/js/main.5b70c52e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b9dbf40.css",
-    "static/js/main.332e1636.js"
+    "static/css/main.9b5f1f62.css",
+    "static/js/main.5b70c52e.js"
   ]
 }
