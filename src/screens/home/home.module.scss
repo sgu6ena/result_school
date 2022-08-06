@@ -3,7 +3,7 @@
   .container {
     @apply text-white relative bg-blue-600 flex-col md:flex-row flex  items-center rounded-l-3xl;
     .circles {
-      @apply absolute bottom-0 lg:flex  hidden left-0  opacity-50;
+      @apply absolute bottom-0 lg:flex pl-32 hidden left-0  opacity-70;
       .circle {
         @apply h-80 w-80 bg-blue-700 rounded-full  z-0;
       }
@@ -31,22 +31,19 @@
     }
 
     .wrapper {
-      &:before {
-        content: '';
-        background: url("../../assets/svg/background_dots.svg") no-repeat;
-        @apply absolute top-0 left-0 w-48 h-48 bg-cover bg-center opacity-50 z-0;
-      }
+      @apply text-blue-500;
+      background: url("../../assets/svg/background_dots.svg") no-repeat 0px 10px ;
 
       @apply self-end items-start relative z-10 w-full;
       .image {
-        @apply relative object-cover  block z-20  h-full;
+        @apply relative object-contain pt-20 pl-12 block z-20  h-full;
       }
 
       .promise{
-        @apply relative w-full  lg:absolute text-gray-900 lg:left-14 z-40 text-gray-500 shadow-2xl border text-sm rounded-3xl  px-5 py-8 lg:w-96 bg-white ;
+        @apply relative w-full  lg:absolute text-gray-900 lg:-left-6 z-40 text-gray-500 shadow-2xl border text-sm rounded-3xl  px-5 py-8 lg:w-96 bg-white ;
         bottom:-80px;
         .icon{
-          @apply absolute p-3 rounded-2xl bg-blue-500 z-50 -top-14 left-10;
+          @apply absolute p-3 rounded-2xl bg-blue-500 z-50 -top-10 left-10;
         }
         span{
           @apply text-orange-500;
@@ -62,7 +59,7 @@
 .instructions {
   @apply container px-5 m-auto;
   h2 {
-    @apply flex text-center flex-col lg:flex-row items-center justify-center lg:text-6xl md:text-5xl text-3xl font-semibold gap-6;
+    @apply flex text-center flex-col lg:flex-row items-center justify-center lg:text-6xl md:text-5xl text-2xl font-semibold gap-6;
     .question {
       @apply lg:h-6 inline-flex justify-center items-center  lg:text-lg w-12 h-12  lg:w-6 grow-0 shrink-0 bg-blue-600 text-white rounded-full;
     }
@@ -76,6 +73,9 @@
     @apply relative;
     img {
       @apply lg:w-3/5 w-full my-5 m-auto;
+      &~p{
+        @apply text-center;
+      }
     }
 
     .card {
@@ -99,7 +99,6 @@
       @apply ml-0;
       > li {
         @apply ml-2 list-['-'] pl-2;
-
       }
     }
 
@@ -112,7 +111,7 @@
 }
 
 .last {
-  @apply m-5 bg-gray-900 rounded-xl text-white;
+  @apply m-5 mt-20 bg-gray-900 rounded-xl text-white;
   h2 {
     @apply text-3xl text-center font-bold pt-20;
   }

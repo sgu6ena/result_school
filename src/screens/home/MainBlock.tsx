@@ -1,6 +1,6 @@
 import {FC} from 'react';
 import styles from "./home.module.scss";
-import {ReactComponent as Cmd} from '../../assets/svg/cmd.svg'
+import {ReactComponent as Cmd} from '../../assets/svg/cmd_alt.svg'
 
 const MainBlock: FC = () => {
   return (
@@ -25,7 +25,7 @@ const MainBlock: FC = () => {
           <button>Задать вопрос об обучении</button>
         </div>
         <div className={styles.wrapper}>
-          <img src="assets/images/img.png" className={styles.image} alt="Профессия Frontend — разработчик"/>
+          <img src="/result_school/assets/images/img.png" className={styles.image} alt="Профессия Frontend — разработчик"/>
           
           <div className={styles.promise}>
             <div className={styles.icon}>
