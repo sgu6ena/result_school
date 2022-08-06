@@ -111,12 +111,12 @@
 }
 
 .last {
-  @apply m-5 mt-20 bg-gray-900 rounded-xl text-white;
+  @apply m-5 mt-20 bg-gray-900 rounded-2xl text-white;
   h2 {
     @apply text-3xl text-center font-bold pt-20;
   }
 
   .tabcontent {
-    @apply flex flex-col md:flex-row justify-center gap-6;
+    @apply flex flex-col md:flex-row justify-around gap-6;
   }
 }
