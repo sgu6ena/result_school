@@ -1,7 +1,7 @@
 .list {
-  @apply flex flex-col md:flex-row flex-wrap items-center justify-center gap-8 w-full lg:my-28 md:my-20 my-10;
+  @apply flex flex-col ml-12 md:flex-row flex-wrap items-center justify-center gap-8 w-full lg:my-16 md:my-20 my-10;
   .item {
-    @apply flex gap-5 items-center md:w-[450px] w-full;
+    @apply flex gap-5 items-center md:w-[400px] lg:w-[430px] w-full;
     &:before {
       content: '•';
       @apply font-bold lg:text-4xl lg:ml-4 text-2xl ml-2 text-gray-300;
